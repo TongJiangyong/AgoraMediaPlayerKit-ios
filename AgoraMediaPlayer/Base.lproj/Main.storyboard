@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="575" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tI4-tm-6Lw">
+                                <rect key="frame" x="0.0" y="420" width="575" height="247"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idx-jp-y2t">
+                                        <rect key="frame" x="27" y="23" width="127" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始所有">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="play_all_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="32M-SC-Akp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jd-Bf-yLY">
+                                        <rect key="frame" x="201" y="23" width="134" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="134" id="czZ-bX-XNT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="停止所有">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="stop_all_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BNe-C0-xjC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6m-Qo-hau">
+                                        <rect key="frame" x="27" y="70" width="308" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始全部视频">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_all_video_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mWP-SV-mSW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieC-JZ-ayK">
+                                        <rect key="frame" x="27" y="117" width="127" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始音频1">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_audio1_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJo-Nz-omh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbp-YA-xZk">
+                                        <rect key="frame" x="201" y="117" width="134" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始音频2">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_audio2_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kkb-K8-BdI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enG-rE-q5x">
+                                        <rect key="frame" x="27" y="164" width="127" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始音频3">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_audio3_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5gV-uV-GhG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4V-la-1p5">
+                                        <rect key="frame" x="201" y="164" width="134" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始音频4">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_audio4_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TXK-cd-Ihg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkZ-8d-mae">
+                                        <rect key="frame" x="201" y="211" width="134" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始音频6">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_audio6_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9b7-Hd-JRk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POS-Le-iyY">
+                                        <rect key="frame" x="28" y="258" width="307" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始音频7">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_audio7_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s31-Ax-2ml"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" restorationIdentifier="start_audio_5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejE-Ti-pf7">
+                                        <rect key="frame" x="28" y="211" width="127" height="39"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="开始音频5">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="start_audio5_btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4T-av-S1O"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="idx-jp-y2t" firstAttribute="leading" secondItem="tI4-tm-6Lw" secondAttribute="leading" constant="27" id="1Nr-cF-s9D"/>
+                                    <constraint firstItem="ieC-JZ-ayK" firstAttribute="trailing" secondItem="idx-jp-y2t" secondAttribute="trailing" id="337-Zc-geF"/>
+                                    <constraint firstItem="zkZ-8d-mae" firstAttribute="leading" secondItem="F4V-la-1p5" secondAttribute="leading" id="3Sp-O3-eco"/>
+                                    <constraint firstItem="enG-rE-q5x" firstAttribute="leading" secondItem="ieC-JZ-ayK" secondAttribute="leading" id="5A8-05-PPg"/>
+                                    <constraint firstItem="POS-Le-iyY" firstAttribute="centerX" secondItem="A6m-Qo-hau" secondAttribute="centerX" id="86b-jg-MdF"/>
+                                    <constraint firstItem="enG-rE-q5x" firstAttribute="top" secondItem="ieC-JZ-ayK" secondAttribute="bottom" constant="8" symbolic="YES" id="8YH-8t-38Q"/>
+                                    <constraint firstItem="A6m-Qo-hau" firstAttribute="top" secondItem="idx-jp-y2t" secondAttribute="bottom" constant="8" symbolic="YES" id="9cI-iP-pBW"/>
+                                    <constraint firstItem="F4V-la-1p5" firstAttribute="trailing" secondItem="Dbp-YA-xZk" secondAttribute="trailing" id="CzY-65-NV0"/>
+                                    <constraint firstItem="ejE-Ti-pf7" firstAttribute="baseline" secondItem="zkZ-8d-mae" secondAttribute="baseline" id="Deb-6f-75m"/>
+                                    <constraint firstItem="F4V-la-1p5" firstAttribute="leading" secondItem="Dbp-YA-xZk" secondAttribute="leading" id="Dzd-Gc-gGB"/>
+                                    <constraint firstItem="Dbp-YA-xZk" firstAttribute="trailing" secondItem="A6m-Qo-hau" secondAttribute="trailing" id="LUS-zI-oyE"/>
+                                    <constraint firstItem="zkZ-8d-mae" firstAttribute="top" secondItem="F4V-la-1p5" secondAttribute="bottom" constant="8" symbolic="YES" id="M9Y-VR-3h9"/>
+                                    <constraint firstItem="ejE-Ti-pf7" firstAttribute="leading" secondItem="POS-Le-iyY" secondAttribute="leading" id="MMv-Bi-xLi"/>
+                                    <constraint firstItem="A6m-Qo-hau" firstAttribute="leading" secondItem="idx-jp-y2t" secondAttribute="leading" id="MqJ-w5-aVF"/>
+                                    <constraint firstItem="1Jd-Bf-yLY" firstAttribute="baseline" secondItem="idx-jp-y2t" secondAttribute="baseline" id="TOh-r2-vu3"/>
+                                    <constraint firstItem="zkZ-8d-mae" firstAttribute="leading" secondItem="ejE-Ti-pf7" secondAttribute="trailing" constant="46" id="ad3-is-wWs"/>
+                                    <constraint firstItem="1Jd-Bf-yLY" firstAttribute="leading" secondItem="tI4-tm-6Lw" secondAttribute="leading" constant="201" id="dH9-Jf-pCj"/>
+                                    <constraint firstItem="ieC-JZ-ayK" firstAttribute="top" secondItem="A6m-Qo-hau" secondAttribute="bottom" constant="8" symbolic="YES" id="f7K-Ev-3M4"/>
+                                    <constraint firstItem="ieC-JZ-ayK" firstAttribute="leading" secondItem="A6m-Qo-hau" secondAttribute="leading" id="fQv-bg-Vls"/>
+                                    <constraint firstItem="POS-Le-iyY" firstAttribute="trailing" secondItem="zkZ-8d-mae" secondAttribute="trailing" id="hJq-wd-ftC"/>
+                                    <constraint firstItem="enG-rE-q5x" firstAttribute="trailing" secondItem="ieC-JZ-ayK" secondAttribute="trailing" id="iW2-Zf-NOE"/>
+                                    <constraint firstAttribute="trailing" secondItem="idx-jp-y2t" secondAttribute="trailing" constant="200" id="nYe-YC-cFW"/>
+                                    <constraint firstItem="POS-Le-iyY" firstAttribute="top" secondItem="zkZ-8d-mae" secondAttribute="bottom" constant="8" symbolic="YES" id="pG5-xD-YAJ"/>
+                                    <constraint firstItem="Dbp-YA-xZk" firstAttribute="leading" secondItem="1Jd-Bf-yLY" secondAttribute="leading" id="pI2-26-oyu"/>
+                                    <constraint firstAttribute="bottom" secondItem="idx-jp-y2t" secondAttribute="bottom" constant="400" id="pKx-je-osN"/>
+                                    <constraint firstItem="1Jd-Bf-yLY" firstAttribute="leading" secondItem="idx-jp-y2t" secondAttribute="trailing" constant="47" id="ppT-zE-wZM"/>
+                                    <constraint firstItem="F4V-la-1p5" firstAttribute="baseline" secondItem="enG-rE-q5x" secondAttribute="baseline" id="sNc-L6-dPU"/>
+                                    <constraint firstItem="A6m-Qo-hau" firstAttribute="trailing" secondItem="1Jd-Bf-yLY" secondAttribute="trailing" id="sjT-rU-sRY"/>
+                                    <constraint firstItem="zkZ-8d-mae" firstAttribute="trailing" secondItem="F4V-la-1p5" secondAttribute="trailing" id="vnL-Cs-d0p"/>
+                                    <constraint firstItem="idx-jp-y2t" firstAttribute="top" secondItem="tI4-tm-6Lw" secondAttribute="top" constant="23" id="xbc-mN-t4y"/>
+                                    <constraint firstItem="Dbp-YA-xZk" firstAttribute="baseline" secondItem="ieC-JZ-ayK" secondAttribute="baseline" id="zbI-82-QHG"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95310930663315707" green="0.95310930663315707" blue="0.95310930663315707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tI4-tm-6Lw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="400" id="5B3-35-mYa"/>
+                            <constraint firstAttribute="trailing" secondItem="tI4-tm-6Lw" secondAttribute="trailing" id="71M-lX-8tT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tI4-tm-6Lw" secondAttribute="bottom" id="Eol-Ur-Vqn"/>
+                            <constraint firstItem="tI4-tm-6Lw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bJI-Q9-FxH"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="575" height="667"/>
+                    <connections>
+                        <outlet property="start_all" destination="idx-jp-y2t" id="Y11-tN-Rxt"/>
+                        <outlet property="start_all_video" destination="A6m-Qo-hau" id="oK3-2k-73Q"/>
+                        <outlet property="start_audio_1" destination="ieC-JZ-ayK" id="QxY-4y-R9c"/>
+                        <outlet property="start_audio_2" destination="Dbp-YA-xZk" id="pVj-af-p8L"/>
+                        <outlet property="start_audio_3" destination="enG-rE-q5x" id="6rB-Zo-JWh"/>
+                        <outlet property="start_audio_4" destination="F4V-la-1p5" id="t5g-k0-AUl"/>
+                        <outlet property="start_audio_5" destination="ejE-Ti-pf7" id="AoX-Ow-yee"/>
+                        <outlet property="start_audio_6" destination="zkZ-8d-mae" id="o8A-x5-EQC"/>
+                        <outlet property="start_audio_7" destination="POS-Le-iyY" id="AtE-m0-aJT"/>
+                        <outlet property="stop_all" destination="1Jd-Bf-yLY" id="jtx-7M-Bib"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="432.80000000000001" y="416.94152923538235"/>
+        </scene>
+    </scenes>
+</document>

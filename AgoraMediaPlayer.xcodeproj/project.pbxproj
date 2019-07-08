@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537F8EE022CB345100695BB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 537F8EDF22CB345100695BB2 /* AppDelegate.m */; };
+		537F8EE322CB345100695BB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537F8EE222CB345100695BB2 /* ViewController.m */; };
+		537F8EE622CB345100695BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537F8EE422CB345100695BB2 /* Main.storyboard */; };
+		537F8EE822CB345400695BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537F8EE722CB345400695BB2 /* Assets.xcassets */; };
+		537F8EEB22CB345400695BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537F8EE922CB345400695BB2 /* LaunchScreen.storyboard */; };
+		537F8EEE22CB345400695BB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 537F8EED22CB345400695BB2 /* main.m */; };
+		537F8EF822CB345400695BB2 /* AgoraMediaPlayerKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 537F8EF722CB345400695BB2 /* AgoraMediaPlayerKitTests.m */; };
+		537F8F0322CB345400695BB2 /* AgoraMediaPlayerKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 537F8F0222CB345400695BB2 /* AgoraMediaPlayerKitUITests.m */; };
+		537F8F1422CB384000695BB2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F1322CB384000695BB2 /* libc++.tbd */; };
+		537F8F1622CB385700695BB2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F1522CB385700695BB2 /* libz.tbd */; };
+		537F8F1822CB386900695BB2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F1722CB386900695BB2 /* libbz2.tbd */; };
+		537F8F1A22CB387300695BB2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F1922CB387300695BB2 /* AudioToolbox.framework */; };
+		537F8F1C22CB387A00695BB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F1B22CB387A00695BB2 /* UIKit.framework */; };
+		537F8F1E22CB388100695BB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F1D22CB388100695BB2 /* CoreGraphics.framework */; };
+		537F8F2022CB389200695BB2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F1F22CB389200695BB2 /* CoreMedia.framework */; };
+		537F8F2222CB389900695BB2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F2122CB389900695BB2 /* AVFoundation.framework */; };
+		537F8F2422CB38A000695BB2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F2322CB38A000695BB2 /* CoreVideo.framework */; };
+		537F8F2622CB38A700695BB2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F2522CB38A700695BB2 /* MediaPlayer.framework */; };
+		537F8F2822CB38AF00695BB2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F2722CB38AE00695BB2 /* MobileCoreServices.framework */; };
+		537F8F2A22CB38B500695BB2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F2922CB38B500695BB2 /* OpenGLES.framework */; };
+		537F8F2C22CB38BB00695BB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F2B22CB38BB00695BB2 /* QuartzCore.framework */; };
+		537F8F2E22CB38C300695BB2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F8F2D22CB38C300695BB2 /* VideoToolbox.framework */; };
+		53CE3E6F22CF31D200FD9B30 /* RenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CE3E6E22CF31D200FD9B30 /* RenderView.m */; };
+		53E3240D22D321B0001D26F5 /* AgoraMediaPlayerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3240C22D321B0001D26F5 /* AgoraMediaPlayerKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		537F8EF422CB345400695BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537F8ED322CB345100695BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537F8EDA22CB345100695BB2;
+			remoteInfo = AgoraMediaPlayerKit;
+		};
+		537F8EFF22CB345400695BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537F8ED322CB345100695BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537F8EDA22CB345100695BB2;
+			remoteInfo = AgoraMediaPlayerKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		537F8EDB22CB345100695BB2 /* AgoraMediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537F8EDE22CB345100695BB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		537F8EDF22CB345100695BB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		537F8EE122CB345100695BB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		537F8EE222CB345100695BB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		537F8EE522CB345100695BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		537F8EE722CB345400695BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		537F8EEA22CB345400695BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		537F8EEC22CB345400695BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537F8EED22CB345400695BB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		537F8EF322CB345400695BB2 /* AgoraMediaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraMediaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537F8EF722CB345400695BB2 /* AgoraMediaPlayerKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraMediaPlayerKitTests.m; sourceTree = "<group>"; };
+		537F8EF922CB345400695BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537F8EFE22CB345400695BB2 /* AgoraMediaPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgoraMediaPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537F8F0222CB345400695BB2 /* AgoraMediaPlayerKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraMediaPlayerKitUITests.m; sourceTree = "<group>"; };
+		537F8F0422CB345400695BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537F8F1322CB384000695BB2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		537F8F1522CB385700695BB2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		537F8F1722CB386900695BB2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		537F8F1922CB387300695BB2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		537F8F1B22CB387A00695BB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		537F8F1D22CB388100695BB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		537F8F1F22CB389200695BB2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		537F8F2122CB389900695BB2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		537F8F2322CB38A000695BB2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		537F8F2522CB38A700695BB2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		537F8F2722CB38AE00695BB2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		537F8F2922CB38B500695BB2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		537F8F2B22CB38BB00695BB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		537F8F2D22CB38C300695BB2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		53CE3E6D22CF31D200FD9B30 /* RenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderView.h; sourceTree = "<group>"; };
+		53CE3E6E22CF31D200FD9B30 /* RenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderView.m; sourceTree = "<group>"; };
+		53E3240C22D321B0001D26F5 /* AgoraMediaPlayerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraMediaPlayerKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537F8ED822CB345100695BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537F8F2E22CB38C300695BB2 /* VideoToolbox.framework in Frameworks */,
+				537F8F2C22CB38BB00695BB2 /* QuartzCore.framework in Frameworks */,
+				537F8F2A22CB38B500695BB2 /* OpenGLES.framework in Frameworks */,
+				537F8F2822CB38AF00695BB2 /* MobileCoreServices.framework in Frameworks */,
+				537F8F2622CB38A700695BB2 /* MediaPlayer.framework in Frameworks */,
+				537F8F2422CB38A000695BB2 /* CoreVideo.framework in Frameworks */,
+				537F8F2222CB389900695BB2 /* AVFoundation.framework in Frameworks */,
+				537F8F2022CB389200695BB2 /* CoreMedia.framework in Frameworks */,
+				537F8F1E22CB388100695BB2 /* CoreGraphics.framework in Frameworks */,
+				537F8F1C22CB387A00695BB2 /* UIKit.framework in Frameworks */,
+				537F8F1A22CB387300695BB2 /* AudioToolbox.framework in Frameworks */,
+				537F8F1822CB386900695BB2 /* libbz2.tbd in Frameworks */,
+				537F8F1622CB385700695BB2 /* libz.tbd in Frameworks */,
+				53E3240D22D321B0001D26F5 /* AgoraMediaPlayerKit.framework in Frameworks */,
+				537F8F1422CB384000695BB2 /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537F8EF022CB345400695BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537F8EFB22CB345400695BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		537F8ED222CB345100695BB2 = {
+			isa = PBXGroup;
+			children = (
+				537F8EDD22CB345100695BB2 /* AgoraMediaPlayer */,
+				537F8EF622CB345400695BB2 /* AgoraMediaPlayerKitTests */,
+				537F8F0122CB345400695BB2 /* AgoraMediaPlayerKitUITests */,
+				537F8EDC22CB345100695BB2 /* Products */,
+				537F8F1222CB384000695BB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		537F8EDC22CB345100695BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537F8EDB22CB345100695BB2 /* AgoraMediaPlayer.app */,
+				537F8EF322CB345400695BB2 /* AgoraMediaPlayerTests.xctest */,
+				537F8EFE22CB345400695BB2 /* AgoraMediaPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537F8EDD22CB345100695BB2 /* AgoraMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				537F8EDE22CB345100695BB2 /* AppDelegate.h */,
+				537F8EDF22CB345100695BB2 /* AppDelegate.m */,
+				537F8EE922CB345400695BB2 /* LaunchScreen.storyboard */,
+				537F8EE122CB345100695BB2 /* ViewController.h */,
+				537F8EE222CB345100695BB2 /* ViewController.m */,
+				53CE3E6D22CF31D200FD9B30 /* RenderView.h */,
+				53CE3E6E22CF31D200FD9B30 /* RenderView.m */,
+				537F8EE422CB345100695BB2 /* Main.storyboard */,
+				537F8EE722CB345400695BB2 /* Assets.xcassets */,
+				537F8EEC22CB345400695BB2 /* Info.plist */,
+				537F8EED22CB345400695BB2 /* main.m */,
+			);
+			path = AgoraMediaPlayer;
+			sourceTree = "<group>";
+		};
+		537F8EF622CB345400695BB2 /* AgoraMediaPlayerKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				537F8EF722CB345400695BB2 /* AgoraMediaPlayerKitTests.m */,
+				537F8EF922CB345400695BB2 /* Info.plist */,
+			);
+			path = AgoraMediaPlayerKitTests;
+			sourceTree = "<group>";
+		};
+		537F8F0122CB345400695BB2 /* AgoraMediaPlayerKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				537F8F0222CB345400695BB2 /* AgoraMediaPlayerKitUITests.m */,
+				537F8F0422CB345400695BB2 /* Info.plist */,
+			);
+			path = AgoraMediaPlayerKitUITests;
+			sourceTree = "<group>";
+		};
+		537F8F1222CB384000695BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E3240C22D321B0001D26F5 /* AgoraMediaPlayerKit.framework */,
+				537F8F2D22CB38C300695BB2 /* VideoToolbox.framework */,
+				537F8F2B22CB38BB00695BB2 /* QuartzCore.framework */,
+				537F8F2922CB38B500695BB2 /* OpenGLES.framework */,
+				537F8F2722CB38AE00695BB2 /* MobileCoreServices.framework */,
+				537F8F2522CB38A700695BB2 /* MediaPlayer.framework */,
+				537F8F2322CB38A000695BB2 /* CoreVideo.framework */,
+				537F8F2122CB389900695BB2 /* AVFoundation.framework */,
+				537F8F1F22CB389200695BB2 /* CoreMedia.framework */,
+				537F8F1D22CB388100695BB2 /* CoreGraphics.framework */,
+				537F8F1B22CB387A00695BB2 /* UIKit.framework */,
+				537F8F1922CB387300695BB2 /* AudioToolbox.framework */,
+				537F8F1722CB386900695BB2 /* libbz2.tbd */,
+				537F8F1522CB385700695BB2 /* libz.tbd */,
+				537F8F1322CB384000695BB2 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		537F8EDA22CB345100695BB2 /* AgoraMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537F8F0722CB345400695BB2 /* Build configuration list for PBXNativeTarget "AgoraMediaPlayer" */;
+			buildPhases = (
+				537F8ED722CB345100695BB2 /* Sources */,
+				537F8ED822CB345100695BB2 /* Frameworks */,
+				537F8ED922CB345100695BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraMediaPlayer;
+			productName = AgoraMediaPlayerKit;
+			productReference = 537F8EDB22CB345100695BB2 /* AgoraMediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		537F8EF222CB345400695BB2 /* AgoraMediaPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537F8F0A22CB345400695BB2 /* Build configuration list for PBXNativeTarget "AgoraMediaPlayerTests" */;
+			buildPhases = (
+				537F8EEF22CB345400695BB2 /* Sources */,
+				537F8EF022CB345400695BB2 /* Frameworks */,
+				537F8EF122CB345400695BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537F8EF522CB345400695BB2 /* PBXTargetDependency */,
+			);
+			name = AgoraMediaPlayerTests;
+			productName = AgoraMediaPlayerKitTests;
+			productReference = 537F8EF322CB345400695BB2 /* AgoraMediaPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		537F8EFD22CB345400695BB2 /* AgoraMediaPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537F8F0D22CB345400695BB2 /* Build configuration list for PBXNativeTarget "AgoraMediaPlayerUITests" */;
+			buildPhases = (
+				537F8EFA22CB345400695BB2 /* Sources */,
+				537F8EFB22CB345400695BB2 /* Frameworks */,
+				537F8EFC22CB345400695BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537F8F0022CB345400695BB2 /* PBXTargetDependency */,
+			);
+			name = AgoraMediaPlayerUITests;
+			productName = AgoraMediaPlayerKitUITests;
+			productReference = 537F8EFE22CB345400695BB2 /* AgoraMediaPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537F8ED322CB345100695BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "李晓晨";
+				TargetAttributes = {
+					537F8EDA22CB345100695BB2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					537F8EF222CB345400695BB2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 537F8EDA22CB345100695BB2;
+					};
+					537F8EFD22CB345400695BB2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 537F8EDA22CB345100695BB2;
+					};
+				};
+			};
+			buildConfigurationList = 537F8ED622CB345100695BB2 /* Build configuration list for PBXProject "AgoraMediaPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 537F8ED222CB345100695BB2;
+			productRefGroup = 537F8EDC22CB345100695BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				537F8EDA22CB345100695BB2 /* AgoraMediaPlayer */,
+				537F8EF222CB345400695BB2 /* AgoraMediaPlayerTests */,
+				537F8EFD22CB345400695BB2 /* AgoraMediaPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		537F8ED922CB345100695BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537F8EEB22CB345400695BB2 /* LaunchScreen.storyboard in Resources */,
+				537F8EE822CB345400695BB2 /* Assets.xcassets in Resources */,
+				537F8EE622CB345100695BB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537F8EF122CB345400695BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537F8EFC22CB345400695BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537F8ED722CB345100695BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537F8EE322CB345100695BB2 /* ViewController.m in Sources */,
+				537F8EEE22CB345400695BB2 /* main.m in Sources */,
+				53CE3E6F22CF31D200FD9B30 /* RenderView.m in Sources */,
+				537F8EE022CB345100695BB2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537F8EEF22CB345400695BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537F8EF822CB345400695BB2 /* AgoraMediaPlayerKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537F8EFA22CB345400695BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537F8F0322CB345400695BB2 /* AgoraMediaPlayerKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		537F8EF522CB345400695BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537F8EDA22CB345100695BB2 /* AgoraMediaPlayer */;
+			targetProxy = 537F8EF422CB345400695BB2 /* PBXContainerItemProxy */;
+		};
+		537F8F0022CB345400695BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537F8EDA22CB345100695BB2 /* AgoraMediaPlayer */;
+			targetProxy = 537F8EFF22CB345400695BB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		537F8EE422CB345100695BB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537F8EE522CB345100695BB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		537F8EE922CB345400695BB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537F8EEA22CB345400695BB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		537F8F0522CB345400695BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		537F8F0622CB345400695BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		537F8F0822CB345400695BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AgoraMediaPlayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brian.AgoraMediaPlayerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		537F8F0922CB345400695BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AgoraMediaPlayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brian.AgoraMediaPlayerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		537F8F0B22CB345400695BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgoraMediaPlayerKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brian.AgoraMediaPlayerKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraMediaPlayer.app/AgoraMediaPlayer";
+			};
+			name = Debug;
+		};
+		537F8F0C22CB345400695BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgoraMediaPlayerKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brian.AgoraMediaPlayerKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgoraMediaPlayer.app/AgoraMediaPlayer";
+			};
+			name = Release;
+		};
+		537F8F0E22CB345400695BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgoraMediaPlayerKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brian.AgoraMediaPlayerKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraMediaPlayerKit;
+			};
+			name = Debug;
+		};
+		537F8F0F22CB345400695BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AgoraMediaPlayerKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brian.AgoraMediaPlayerKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgoraMediaPlayerKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537F8ED622CB345100695BB2 /* Build configuration list for PBXProject "AgoraMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537F8F0522CB345400695BB2 /* Debug */,
+				537F8F0622CB345400695BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537F8F0722CB345400695BB2 /* Build configuration list for PBXNativeTarget "AgoraMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537F8F0822CB345400695BB2 /* Debug */,
+				537F8F0922CB345400695BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537F8F0A22CB345400695BB2 /* Build configuration list for PBXNativeTarget "AgoraMediaPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537F8F0B22CB345400695BB2 /* Debug */,
+				537F8F0C22CB345400695BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537F8F0D22CB345400695BB2 /* Build configuration list for PBXNativeTarget "AgoraMediaPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537F8F0E22CB345400695BB2 /* Debug */,
+				537F8F0F22CB345400695BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 537F8ED322CB345100695BB2 /* Project object */;
+}
